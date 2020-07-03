@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+
+    <title>How to Play SuperPlay</title>
+
+    <script type="text/javascript" src="./script-min.js"></script>
+    <style>
+      .apple_box {
+        display: none;
+      }
+      header h1.txt {
+        font-size: 1.333em;
+        font-weight: 700;
+        padding: 5% 0 4.5%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="leaderboard mainSiteDiv left_site_content">
+      <header>
+        <a href="">
+          <img
+            src="./assets/home-icon.png"
+            alt="Fantasy Cricket"
+            class="logo d_homeLogo"
+          />
+        </a>
+        <h1 class="txt">How to Play</h1>
+      </header>
+
+      <p>
+        <link
+          type="text/css"
+          rel="stylesheet"
+          href="./assets/how-to-play.css"
+        />
+      </p>
+      <div class="howToPlay">
+        <div id="accordion" class="howToPlayBox">
+          <div class="howToPlayRow">
+            <!-- <div class="accordionToggle">Introduction <span class="arr">&nbsp;</span></div>
+                    <div class="accordionContent">
+                        <p class="lh18">Dream11 is India’s biggest Fantasy Sports platform with 8 Crore+ users playing Fantasy Cricket, Football, Kabaddi, Basketball, Hockey and Volleyball.  Dream11 helps Indian sports fans actively engage with and showcase knowledge of the sports they love. Fans can create their own team of real-life players from upcoming matches, score points based on their on-field performance and compete with other fans.</p>
+                        <p class="lh18 pdTop10">Dream11 is played by using your sport knowledge and skill. You can pick your own team made up of real players for Cricket, Football, Kabaddi &amp; NBA. Create your team within a maximum budget of 100 credits. Your team earns points based on your chosen players' performance in the real-life matches. It's time to showcase your skill and go for glory!</p>
+                        <p class="lh18 pdTop10"><strong>Follow these 5 easy steps to get started:</strong></p>
+                        <ul class="listNumb">
+                            <li>
+                                <p class="lh18 pdTop10"><strong>Select A Match</strong>: <br>Select any of the upcoming matches from any of the current or upcoming cricket series</p>
+                            </li>
+                            <li>
+                                <p class="lh18 pdTop10"><strong>Create Your Team</strong>: <br>Use your sports knowledge and showcase your skills to create your Dream11 team within a budget of 100 credits</p>
+                            </li>
+                            <li>
+                                <p class="lh18 pdTop10"><strong>Join a Contest</strong>: <br>Join any Dream11 free or cash contest to win cash and the ultimate bragging rights to showoff your improvement in the Free/Skill contests on Dream11!</p>
+                            </li>
+                            <li>
+                                <p class="lh18 pdTop10"><strong>Follow the Match</strong>: <br>Watch the real match and track your fantasy scorecard (updated every 2 minutes)</p>
+                            </li>
+                            <li>
+                                <p class="lh18 pdTop10"><strong>Withdraw your Winnings</strong>: <br>Instantly withdraw your winnings from your Dream11 account (One Time Verification required)</p>
+                            </li>
+                        </ul>
+                    </div> -->
+          </div>
+          <div class="howToPlayRow">
+            <div class="accordionToggle">
+              How to Play <span class="arr">&nbsp;</span>
+            </div>
+            <div class="accordionContent">
+              <p class="lh18 pdBtm10 strong">
+                Step 1: Choose a League you want to Play.
+              </p>
+
+              <div class="alCtr pdBtm15">
+                <img
+                  src="./assets/img1.jpg"
+                  alt="Create Team Step 1"
+                  width="320"
+                />
+              </div>
+
+              <p class="lh18 pdBtm10 strong">
+                Step 2: Create a Playlist from a group of 20 videos of the
+                league.
+              </p>
+
+              <ul class="listBull">
+                <li>
+                  <p class="lh18 pdBtm10">
+                    For Playlist you are given max 1000 credits and every video
+                    has credit
+                  </p>
+                </li>
+                <li>
+                  <p class="lh18 pdBtm10">
+                    You can add up to 8 videos in your playlist
+                  </p>
+                </li>
+                <li>
+                  <p class="lh18 pdBtm10">
+                    One Video can be added Multiple Times
+                  </p>
+                </li>
+                <li>
+                  <p class="lh18 pdBtm10">
+                    Post video selection , Answer Tie breaker question : Predict
+                    the views the video will get in duration of the league
+                  </p>
+                </li>
+              </ul>
+              <div class="alCtr pdBtm15">
+                <img
+                  src="./assets/img2.jpg"
+                  alt="Create Team Step 2"
+                  width="320"
+                />
+              </div>
+
+              <p class="lh18 pdBtm10 strong">
+                Step 3: Join a Contest
+              </p>
+
+              <ul class="listBull">
+                <li>
+                  <p class="lh18 pdBtm10">
+                    Every league contest with Entry fee per playlist - Free or
+                    Coins
+                  </p>
+                </li>
+                <li>
+                  <p class="lh18 pdBtm10">
+                    Join Contest with Playlist you created
+                  </p>
+                </li>
+              </ul>
+              <div class="alCtr pdBtm15">
+                <img
+                  src="./assets/img3.jpg"
+                  alt="Create Team Step 3"
+                  width="320"
+                />
+              </div>
+              <p class="lh18 pdBtm10 strong">
+                Step 4: Check your Rank and Prize you have won.
+              </p>
+              <p class="lh18 pdBtm10">
+                Look out your rank in Contest Leaderboard
+              </p>
+              <p class="lh18 pdBtm10">
+                Post League is over , your prize is credited in Super Play
+                wallet
+              </p>
+              <div class="alCtr pdBtm15">
+                <img
+                  src="./assets/img4.jpg"
+                  alt="Create Team Step 4"
+                  width="320"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="howToPlayRow">
+            <div class="accordionToggle">
+              Scoring System <span class="arr">&nbsp;</span>
+            </div>
+            <div class="accordionContent">
+              <ul class="listBull">
+                <li>
+                  <p class="lh18 pdBtm10">
+                    &bullet;&nbsp; When the League goes live the views of the
+                    videos of League at the Start Time of the league is freezed.
+                  </p>
+                </li>
+                <li>
+                  <p class="lh18 pdBtm10">
+                    &bullet;&nbsp; Leaderboard will show Playlist Score and Rank
+                  </p>
+                </li>
+                <li>
+                  <p class="lh18 pdBtm10">
+                    &bullet;&nbsp; Total Score of Playlist is computed by adding
+                    Scores of Videos in a Playlist. (Just Like Cricket how
+                    player performance and player score is added to Team points)
+                  </p>
+                </li>
+                <li>
+                  <p class="lh18 pdBtm10">
+                    &bullet;&nbsp; Score of a video is computed in Live by
+                    (Current Views - Initial Views) / Video Credits
+                  </p>
+                </li>
+                <li>
+                  <p class="lh18 pdBtm10">
+                    &bullet; &nbsp; When the League gets finished , Score of
+                    Video = ( Final Views - Initial Views) / Video Credits
+                  </p>
+                </li>
+                <li>
+                  <p class="lh18 pdBtm10">
+                    &bullet;&nbsp; Final Views are the Views that Video got at
+                    the end of the league
+                  </p>
+                </li>
+              </ul>
+              <div class="alCtr pdBtm15">
+                <img
+                  src="./assets/img4.jpg"
+                  alt="Create Team Step 4"
+                  width="320"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="howToPlayRow">
+            <div class="accordionToggle">
+              FAQs <span class="arr">&nbsp;</span>
+            </div>
+            <div class="accordionContent">
+              <div class="pdBtm10">
+                <p class="lh18 strong">What is SuperPlay?</p>
+                <p class="lh18 pdTop5">
+                  SuperPlay is India’s First only Video fantasy platform , that
+                  lets you experience the thrill of competing with Video lovers
+                  around the world and show off your prediction knowledge. Super
+                  Play runs fantasy leagues on a variety of content like Comedy
+                  , Movie Trailer , Songs Videos , Artist videos etc. Show off
+                  your skills by choosing the best performing video in your
+                  Playlist, Compete and Win Prizes
+                </p>
+              </div>
+              <div class="pdBtm10">
+                <p class="lh18 strong">How do I register?</p>
+                <p class="lh18">
+                  That’s Easy! Log on to the SuperPlay app register yourself by
+                  filling out a valid mobile number and verifying it via OTP,,
+                  you can follow the simple starter guide, which will take you
+                  through the simple steps of ‘How to Play’ page of Super Play.
+                </p>
+              </div>
+
+              <div class="pdBtm10">
+                <p class="lh18 strong">Can I update / edit my information?</p>
+                <p class="lh18">
+                  You can edit most of your information on Superplay. Here’s
+                  how:
+                </p>
+                <ul
+                  style="list-style: disc; padding-left: 15px; margin-top: 5px;"
+                >
+                  <li class="lh18">
+                    On the Super Play app, head to ‘My Profile’, at the top of
+                    the page
+                  </li>
+                  <li class="lh18">
+                    Fill in your details in the profile form
+                  </li>
+                </ul>
+              </div>
+              <div class="pdBtm10">
+                <p class="lh18 strong">
+                  I don't know much about Video Fantasy – can I still play?
+                </p>
+                <p class="lh18">
+                  If you are not too sure about your Video Fantasy knowledge,
+                  don’t worry. You can gain some valuable experience and
+                  knowledge as you play more Video Fantasy. Look out for videos
+                  in leagues on Youtube and see how they are trending choose
+                  them in your playlist.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script type="text/javascript">
+        // <![CDATA[
+        $(document).ready(function ($) {
+          $("#accordion")
+            .find(".accordionToggle")
+            .click(function () {
+              $(this).next().slideToggle("fast");
+              $(this).find(".arr").toggleClass("rotate");
+              $(".accordionContent").not($(this).next()).slideUp("fast");
+              $(".accordionToggle .arr")
+                .not($(this).find(".arr"))
+                .removeClass("rotate");
+            });
+        });
+        // ]]>
+      </script>
+    </div>
+    <div class="right_banner"></div>
+
+    <style>
+      body {
+        overflow: hidden;
+      }
+      .back-button {
+        background-size: contain;
+        float: left;
+        position: relative;
+        overflow: hidden;
+        margin: 5% 2.5%;
+        width: 1.667em;
+        height: 1.25em;
+        cursor: pointer;
+        z-index: 10;
+      }
+      .left_site_content {
+        display: inline-block;
+        width: 100%;
+        max-width: 550px;
+        left: 0;
+        top: 0;
+        background: #fff;
+        z-index: 1;
+        position: relative;
+        height: 100vh;
+        overflow-y: scroll;
+      }
+      .right_banner {
+        position: fixed;
+        right: 0px;
+        top: 0px;
+        width: 62%;
+        height: 100%;
+        background: url() no-repeat;
+        background-size: cover;
+        height: 100vh;
+      }
+      .right_banner img {
+        width: 100%;
+      }
+      .left_mobile_box {
+        max-width: 550px;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+      }
+
+      @media (min-width: 1440px) {
+        .left_site_content {
+          width: 38%;
+          max-width: 38%;
+        }
+      }
+
+      @media (max-width: 1280px) {
+        .right_banner {
+          width: 57%;
+        }
+      }
+
+      @media (max-width: 1024px) {
+        .left_site_content {
+          width: 100%;
+          max-width: 550px;
+        }
+      }
+
+      @media only screen and (max-width: 768px) {
+        .left_site_content {
+          width: 100%;
+          max-width: 100%;
+        }
+
+        .right_banner {
+          display: none;
+        }
+        .footerInd {
+          padding: 3% 0;
+        }
+      }
+
+      @media only screen and (max-width: 550px) {
+        .left_site_content {
+          width: 100%;
+          max-width: 100%;
+        }
+      }
+    </style>
+    <script type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        event: "Pageview",
+      });
+
+      if (window.location.href.indexOf("appType=iOS") > 0) {
+        document.getElementById("apple_box").style.display = "block";
+      }
+    </script>
+  </body>
+</html>
