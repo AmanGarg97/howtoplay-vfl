@@ -63,7 +63,7 @@
     .fantasy_sports_list_title{ font-size: 1.14rem;}
     .banner_download_app,
     .join_our_download_app,
-    .footer_social_links{/* -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center;*/}
+    .footer_social_links{ -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center;}
     .new_era_content_sec{ padding-top: 2.5rem;}
     .new_era_sec{ min-height: auto; padding-top: 18rem; padding-bottom: 2.5rem;}
     .new_era_sec_img img{ height: 57.5rem;}
